@@ -1,0 +1,26 @@
+- What is HTTP?
+HTTP stands for Hypertext Transfer Protocol and it's a protocol in which browsers and servers communicate.
+
+- What is a URL?
+URL stands for uniform resource locator and it's an address go a given resource on the web. It's made up of a protocol, hostname, port, resource, and queries.
+
+- What is DNS?
+DNS stands for the Domain Name System. It's like the phonebook of the Internet. DNS translates requests for names into IP addresses. 
+
+- What is a query string?
+A query string is a part of a URL and it provides extra information like search terms, info from forms, etc. 
+
+- What are two HTTP verbs and how are they different?
+There's GET and POST. GET can request without side effects. It will not change the server data, an example of this is clicking a link on a page. POST requests with side effects and can change data on a server. Examples of this are some form submissions, sending mail, sending data. 
+
+- What is an HTTP request?
+An HTTP request is when you point your browser to a webpage on a server. This is almost always a GET request.
+
+- What is an HTTP response?
+An HTTP response is when the server responds with the exact HTML for the webpage.
+
+- What is an HTTP header? Give a couple examples of request and response headers you have seen.
+An HTTP header is the name or value pairs that are displayed in the request and response messages of message headers for HTTP. An example that I've recently seen is the language information acceptance (Accept-Language: de;).
+
+- What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+First your browser resolves the name into and IP address using DNS. Then your browser makes a request to that IP address, including headers. After that the server sends a response. Then the browser makes a DOM from that HTML. Finally the browser makes separate HTTP requests for this resources and receives response from the server for each.
